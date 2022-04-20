@@ -1,0 +1,132 @@
+.header {
+  padding : 100px;
+  margin : 30px 20px;
+  background: white;
+}
+.logo{
+ display : block;
+ padding-top : 1px;
+ padding-left : 20px;
+ margin-left: auto;
+ margin-right: auto;
+ width : 400px;
+ height : 200px;
+ float : left;
+}
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #B8288D;
+  overflow:hidden;
+  cursor: pointer;
+}
+li.menu{
+  float:left;
+}
+li a{
+  color:white;
+  display:block;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+li a:hover{
+	background-color:#F39FD7;
+}
+.search {
+	box-shadow:inset 0px 1px 0px 0px #b8288d;
+	background:linear-gradient(to bottom, #f39fd7 5%, #b8288d 100%);
+	background-color:#f39fd7;
+	border-radius:3px;
+	border:1px solid #b8288d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:verdana;
+	font-size:13px;
+	padding:14px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b8288d;
+}
+.search:hover {
+	background:linear-gradient(to bottom, #b8288d 5%, #f39fd7 100%);
+	background-color:#b8288d;
+}
+.search:active {
+	position:relative;
+	top:1px;
+}
+.search-box{
+  border: 2px;
+  border-radius: 4px;
+  padding:14px 24px;
+  border: 2px solid #B8288D;
+}
+.icons{
+	height:30px;
+	width:30px;
+	float:right;
+	padding:12px;
+    bottom: 0;
+}
+.bot{
+  margin : 30px 20px ;
+  margin-bottom: 1px;
+  background: #B8288D;
+  bottom: 20px;
+  height:290px;
+  margin-bottom:30px;
+}
+.but{
+	float:left;
+	padding:12px;
+    bottom: 0;
+}
+.font{
+	font-family:verdana;
+}
+ul.botm{
+  list-style-type: none;
+  background-color: #B8288D;
+  overflow:hidden;
+  font-size:15px;
+  color:white;
+  padding:10px 10px;
+  cursor: pointer;
+}
+.border{
+	border: 2px solid #B8288D;
+	border-radius: 7px;
+	border-width:3px;
+	background-color:#ffe6f2;
+}
+.boxL{
+	background-color: #ffe6f7;
+    border: 3px solid #B8288D;
+    padding: 10px;
+    margin: 20px;
+	border-radius: 10px;
+	display:block;
+	text-decoration:none;
+}  
+.boxS{
+	width:320px;
+	float:left;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #692159;
+  text-shadow: 4px 4px 12px #B8288D;
+  font-size:40px;
+  font-weight: bold;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+

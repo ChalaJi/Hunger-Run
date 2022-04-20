@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hunger Run</title>
+<link rel="stylesheet" href="styles/style2.css"/>
+</head>
+<body style="background-color:#F2C7DF;" class="font">
+
+	<img src="images/Hunger run logo.png" class="logo"/>
+<script src="js/myScript1.js"></script>
+<div class="header">
+</div>
+<div style="margin : 30px 20px;">
+<ul class="menu">
+			<li class="menu"><a onclick="Function1()">Home</a></li>
+			<li class="menu"><a onclick="Function1()">Order History</a></li>
+			<li class="menu"><a href="About Us C.html">Contact Us</a></li>
+			<li class="menu"><a href="About Us C.html">About Us</a></li>
+	<form class="form-inline" style="float:right;">
+		<input class="search-box" type="text" placeholder="Search">
+		<button class="search" onclick="Function1()">Search</button>
+    </form>
+</ul>	
+</div>
+
+<div class="boxL">
+<div style="margin : 30px 20px;">
+	<h1 style="color:#B8288D;">Sign In</h1><h5 style="color:red;">(*-Required)</h5>
+	<form action="SignResults.php" method="POST" onsubmit="return checkpassword()">
+			<label >Full name<font color="red">*</font>:</label><br>
+			<input type="text" id="fname" name="fname" style="width:99%" class="border" required><br><br/>
+		
+			<label for="DC">Delivery City<font color="red">*</font>:</label><br>
+			<input type="radio" id="DC" name="DC" value="Col" checked>
+			<label for="Col">Colombo</label><br>
+			<input type="radio" id="DC" name="DC" value="NCol">
+			<label for="NCol">Outside Colombo</label><br><br>
+			
+			<label for="phone">Enter the contact number<font color="red">*</font>:</label><br>
+			<input type="tel" id="phone" name="phone" placeholder="0#########" pattern="[0-9]{10}" class="border" required ><br><br>
+			
+			 E-mail<font color="red">*</font>: <input type="email" id="myEmail" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" class="border" required><br><br>
+			 
+			 <label for="address">Address<font color="red">*</font>:</label><br>
+			<textarea id="address" name="address" rows="6" cols="100" class="border" required ></textarea><br><br>
+			
+			<label for="cars">Date of birth<font color="red">*</font>:</label>
+			
+			<input type="date" id="birthday" name="birthday" class="border" required ><br><br>
+			
+			<label>Password<font color="red">*</font>(Minimum Characters = 5,Maximum Characters = 10):</label>
+			<input type="password" id="psw" name="psw" pattern="[a-zA-Z0-9]{5,10}" class="border" required><br><br>
+			
+			<label>Re Enter Password<font color="red">*</font>:</label>
+			<input type="password" id="pswn" name="pswn" pattern="[a-zA-Z0-9]{5,10}" class="border" required><br><br>
+			
+			Accept privacy policy terms
+			<input type="checkbox" id="policy" name="policy" onclick="enablebutton()" class="border" ><br/>
+			<center>
+			<input type="submit" id="sub" name="sub" value="Register now" class="border" style="font-family:verdana;font-weight: bold;" disabled>
+		</form>
+</div>
+</div>
+<div class="bot" style="margin : 30px 20px;">
+<ul class="botm">
+		<li><a onclick="Function1()">Home</a></li>
+		<li><a onclick="Function1()">Order History</a></li>
+		<li><a href="About Us C.html">Contact Us</a></li>
+		<li><a href="About Us C.html">About Us</a></li>
+</ul>
+		<img src="images/4.png" class="icons">
+		<img src="images/5.png" class="icons">
+		<img src="images/3.png" class="icons">
+		<img src="images/2.png" class="icons">
+		<img src="images/1.png" class="icons">
+		
+		<a href=https://play.google.com/store?hl=en><img src="images/6.png" class="but" height="45px" width="110px" ></a>
+		<a href=https://www.apple.com/><img src="images/7.png" class="but" height="36px" width="110px" ></a>
+</div>
+
+</body>
+</html>
